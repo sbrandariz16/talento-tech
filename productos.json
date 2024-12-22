@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Balde",
+        "price": 6799,
+        "image": "/image/balde_con_ruedas.jpg",
+        "description": "El balde plástico de 10 litros es un producto versátil y resistente, ideal para diversas necesidades en entornos domésticos, industriales o agrícolas."
+    },
+    {
+        "name": "Desodorante para pisos",
+        "price": 4366,
+        "image": "/image/desod_x_5_l.jpg",
+    "description": "Desodorante Limpia Pisos Bidon X 5ltr Varias Fragancias"
+},
+
+    {
+        "name": "Repelente mosquitos",
+        "price": 5679,
+        "image": "/image/idefix_repelente_200ml_spray.png",
+    "description": "Este producto, que se presenta en un práctico formato de spray, es ideal para toda la familia, con una edad mínima recomendada de 1 año y una máxima de 100 años"    },
+    {
+        "name": "Lavandina x 5Lts",
+        "price": 3460,
+        "image": "/image/lavandina.jpg",
+        "description": "Producto para la limpieza y desinfección de todo tipo de espacios y superficies."    },
+    
+        {
+            "name": "Papel higiénico x 8",
+            "price": 13396,
+            "image": "/image/papel-8.jpg",
+            "description": "Papel Higienico 300 Metros Mts Pack X 8 Un Blanco con Dispenser"    },
+    
+
+    {
+        "name": "Aromatizador",
+        "price": 13800,
+        "image": "/image/saphirusx12.jpg",
+        "description": "Saphirus Aromatizador En Aerosol repuesto Pack 3 Fragancias"    }
+]

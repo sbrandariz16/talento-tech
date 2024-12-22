@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+
+    <link rel="icon" type="image/vnd.icon" href="/image/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <title>Limpia Sec | Insumos de limpieza</title>
+    
+</head>
+<body>
+    <header>
+        <p><img src="image/logols.png" alt="Logo Limpia Sec" width="80px";></p>
+        <h1>Bienvenido a Limpia Sec</h1>
+        <p>Todos los Insumos de Limpieza al mejor precio.</p>
+        <h2>Ventas por mayor y por menor</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/nosotros.html">Nosotros</a></li>
+            <li><a href="/productos.html">Productos</a></li>
+            <li><a href="/Consejos.html">Consejos</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+    <h1>Contacto</h1>
+    <form id="myForm" action="https://formspree.io/f/xovqwzrq" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/nosotros.html">Nosotros</a></li>
+                <li><a href="/productos.html">Productos</a></li>
+                <li><a href="/Consejos.html">Consejos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2024 Limpia Sec. Todos los derechos reservados.</p>
+
+    </footer>
+    <script> 
+        document.addEventListener('DOMContentLoaded', function() { document.getElementById('myForm').addEventListener('submit', function(event) { const name = document.getElementById('name').value.trim(); const email = document.getElementById('email').value.trim(); const message = document.getElementById('message').value.trim(); if (!name || !email || !message) { alert('Por favor, completa todos los campos.'); event.preventDefault(); // Evita que el formulario se envíe
+     } }); }); </script>
+    </body>
+</html>
